@@ -1,0 +1,7 @@
+# Ignorar pastas de build
+bin/
+obj/
+
+# Ignorar pastas do VSCode e do .NET
+.vs/
+*.user
