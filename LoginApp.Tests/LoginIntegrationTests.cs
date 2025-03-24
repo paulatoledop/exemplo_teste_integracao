@@ -45,7 +45,7 @@ namespace LoginApp.Tests
                 { "password", "wrongpassword" }
             };
 
-            // Act
+            // Act client
             var response = await _client.PostAsync("/login", new FormUrlEncodedContent(formData));
             
             // Assert
