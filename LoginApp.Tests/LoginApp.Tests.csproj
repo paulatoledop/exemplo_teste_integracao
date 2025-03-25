@@ -24,3 +24,6 @@
   </ItemGroup>
 
 </Project>
+<!--Este arquivo de projeto define um projeto .NET 9.0 (não empacotável) com usings implícitos e suporte a nullability habilitado. 
+Ele inclui referências a pacotes para testes (xUnit, runner, Microsoft.NET.Test.Sdk), cobertura de código (coverlet.collector) e
+ para integração com ASP.NET Core (Microsoft.AspNetCore.Mvc.Testing), além de referenciar o projeto principal (LoginApp).-->

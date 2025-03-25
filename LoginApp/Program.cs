@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+// O código cria uma aplicação web mínima que redireciona o acesso da raiz para /login, exibe um formulário HTML de login, e processa os dados enviados pelo usuário comparando 
+// com um “banco de dados” em memória. Se as credenciais estiverem corretas, ele retorna uma mensagem de boas-vindas; se não, retorna uma mensagem de erro. 
+
 // Redireciona a URL raiz para /login
 app.MapGet("/", context =>
 {

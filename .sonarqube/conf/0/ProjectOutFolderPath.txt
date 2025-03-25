@@ -1,0 +1,1 @@
+/Users/paulatpalomino/Documents/FATEC/Disciplinas/2025-1/CI-CD/Aulas/exemplo_teste_integracao/.sonarqube/out/0

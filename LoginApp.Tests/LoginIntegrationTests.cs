@@ -63,3 +63,16 @@ namespace LoginApp.Tests
         }
     }
 }
+// Este código define uma classe de testes de integração para a aplicação de login usando xUnit e o recurso de WebApplicationFactory do ASP.NET Core. A classe cria um HttpClient para simular 
+// requisições HTTP reais aos endpoints da aplicação e contém dois testes:
+	// •	SuccessfulLogin_ReturnsWelcomeMessage:
+//              Envia uma requisição POST para o endpoint /login com credenciais válidas (usuário “testuser” e senha “secret”) e verifica se a resposta contém a mensagem de boas-vindas.
+//  	•	UnsuccessfulLogin_ReturnsErrorMessage:
+//              Envia uma requisição POST com credenciais inválidas e verifica se a resposta retorna a mensagem de erro correspondente.
+
+//  Há também um método auxiliar para centralizar o envio de requisições e evitar repetição de código.
+
+// Este teste é considerado de integração porque ele avalia o funcionamento conjunto de várias partes do sistema: 
+// o pipeline HTTP, os endpoints configurados e a lógica de autenticação implementada na aplicação.
+//  Em vez de testar componentes isolados (como um teste unitário faria), ele simula o comportamento real de uma requisição HTTP, 
+// garantindo que os diferentes módulos da aplicação funcionem corretamente em conjunto.
